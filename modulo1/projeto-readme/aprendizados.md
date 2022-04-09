@@ -1,0 +1,2 @@
+# Aprendizados da semana
+Semana produtiva, aprendi bastante sobre terminal, depois sobre github e sobre git, tivemos um papo muito bacana sobre algumas coisas que estão enraizadas na sociedade e como podemos contribuir para o mundo deixar de ser menos machista. Finalizamos a semana com uma oficina maravilhosa com o Luciano a respeito de **empregabilidade** onde pude tirar algumas dúvidas com ele. No final do dia ainda começamos o aprendizado do VS Code.
