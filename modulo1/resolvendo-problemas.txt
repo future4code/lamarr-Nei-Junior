@@ -1,0 +1,20 @@
+Ter atenção no enunciado
+- Antes de mais nada entender o que o exercicio pede
+
+Retirar informações relevantes
+- Filtrar tudo de importante do enunciado 
+
+Pensar nas entradas e saidas
+- Pensar onde e como colocar a informações fornecidas e como atuar nela
+
+Fazer um esquema virtual
+- Pensar no que queremos que o código faça 
+
+Criar código feio
+- Escrever o que você quer fazer com os comandos que vem na cabeça para ver o que acontece
+
+Testar froça bruta
+- Rodar o teste e ver o que aparece no console para ir arrumar posteriormente
+
+Refatorar
+- Ir arrumando e refinando o código
