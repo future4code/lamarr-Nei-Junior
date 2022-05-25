@@ -1,0 +1,38 @@
+#formatandoImagem {
+    margin-left: 150px;
+    font-size: 26px;
+
+
+
+}
+
+#formatandoTexto {
+    font-size: 26px;
+    font-style: oblique;
+
+
+
+
+}
+
+#formatandoTitulo {
+    font-size: 26px;
+    font-style: oblique;
+
+
+}
+#teste {
+    background-color: rgb(0, 0, 0);
+    display:inline-block;
+    width: 1520px;
+    height: 10px;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+}
+
+#imagemDeFundo{
+    background-image: url(./img/cold\ beer.jpg); 
+    width: 1500px;
+    height: 600px;
+}
