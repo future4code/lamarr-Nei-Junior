@@ -1,8 +1,8 @@
-body{
+body {
 
-background-image: url(./img/tecnologia2.png);
-background-attachment: fixed;
-background-size: cover;
+    background-image: url(./img/tecnologia2.png);
+    background-attachment: fixed;
+    background-size: cover;
 
 }
 
@@ -23,19 +23,17 @@ background-size: cover;
 
 }
 
-#formatarImagem2 {
-    border: 2px solid;
-
-}
-
 #formatarTexto {
     margin-left: 300px;
     margin-right: 100px;
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-
 }
+
+#formataLuna {
+    border: 3px solid;
+}
+
 
 p {
     margin-left: 5px;
@@ -54,6 +52,7 @@ body {
 ul {
     list-style: none;
     padding: 0;
+    text-decoration: none;
 }
 
 nav {
@@ -61,6 +60,8 @@ nav {
     padding: 0 10px;
     justify-content: space-between;
     align-items: center;
+    width: cover;
+    text-decoration: none;
 }
 
 h1,
@@ -73,75 +74,184 @@ nav,
 ul {
     display: flex;
     flex-direction: row;
-}
-li{
-padding: 0 20px;
+    text-decoration: none;
 }
 
-li:hover, h1:hover {
-cursor: pointer;
-opacity: 0.8;
-background-color: rgb(255, 255, 255, 0.2);
-}
-li{
-    font-family:fantasy
-}
-h3{
-font-size: 38px;
-color: white;
-font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-
-
-}
-.titulo2 {
-font-family:'Rajdhani', sans-serif; 
-
-
-}
-li:active, h1:active {
-
-background-color: red
-
-}
-button {
-background-color: transparent;
-color: white;
-font-size: 28px;
-
-
-}
-
-.instituicoes{
-margin-right: 50px;
-text-align: justify;
-
-
-}
-
-h2{
-color: white;
-font-family: 'Bebas Neue', cursive; ; 
-font-size: 28px;
-}
-
-.arvore{
-    font-family: 'Bebas Neue', cursive;
-
-}
-
-.arvore:hover{
-
-color: aquamarine;
-font-family: 'Bebas Neue', cursive;
-}
 li {
-
-font-size: 18px;
-
+    padding: 0 20px;
 }
 
-button{
+.naveg:hover,
+h1:hover {
     cursor: pointer;
+    opacity: 0.8;
+    background-color: rgb(255, 255, 255, 0.2);
+}
+
+li {
+    font-family: fantasy;
+    text-decoration: none;
+}
+
+h3 {
+    font-size: 38px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.titulo2 {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.naveg:active,
+h1:active {
+
+    color: aqua;
+}
+
+.aperta{
+    text-decoration: none;
+}
+
+.apertandoBotao:active {
+    color: aqua;
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    font-size: 28px;
+}
+
+.instituicoes {
+    margin-right: 50px;
+    text-align: justify;
+}
+
+h2 {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    ;
+    font-size: 28px;
+}
+
+.arvore {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.arvore:hover {
+    color: aquamarine;
+    font-family: 'Bebas Neue', cursive;
+}
+
+li {
+    font-size: 18px;
+}
+
+a{
+text-decoration: none;
 
 }
 
+button {
+    cursor: pointer;
+}
+
+.aperta:active .icone:active {
+
+    color: aqua;
+}
+
+.formulario {
+    margin-left: 10px;
+    color: white;
+    font-family: fantasy;
+}
+
+.botaozinho {
+    margin-left: 10px;
+    background-color: black;
+    border-radius: 2px;
+    border-color: white;
+}
+
+.contato2 {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    justify-content: center;
+}
+
+.label {
+    width: 1400px;
+    height: 300px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0, 10px;
+    gap: 40px;
+}
+
+.fotosDaGaleria {
+    width: 340px;
+    height: 340px;
+    border: 3px solid white;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.fotosDaGaleria img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+footer {
+    background-color: black;
+    height: auto;
+    width: auto;
+    padding: 3px;
+    color: white;
+    bottom: 0;
+}
+
+.meuFooter {
+
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.meuFooter rodape {
+    color: white;
+}
+
+.Redessociais {
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.Redessociais li {
+    text-decoration: aliceblue;
+    color: white;
+}
+
+.Redessociais a {
+    text-decoration: none;
+    color: white;
+}
+
+.Redessociais a:hover {
+    color: aqua;
+}
+
+.textoFooter {
+    font-family: fantasy;
+
+}
