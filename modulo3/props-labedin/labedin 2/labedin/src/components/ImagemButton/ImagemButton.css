@@ -1,0 +1,23 @@
+.image-button-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 200px;
+    padding: 15px 30px;
+    margin: 10px auto;
+    transition: 1s;
+}
+
+.image-button-container:hover{
+    background-color:lightblue;
+    cursor: pointer;
+    width: 45%;
+    font-size: 20px;
+}
+
+.image-button-container > img {
+    width: 30px;
+    margin-right: 10px;
+}
