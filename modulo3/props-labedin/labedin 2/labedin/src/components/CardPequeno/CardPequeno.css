@@ -1,0 +1,22 @@
+.email{
+    display: flex;
+    margin-right: 2px;
+    border: 1px black solid;
+    padding: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content:flex-start;
+    
+}
+.endereço{
+    display: flex;
+    border: 1px black solid;
+    padding: 10px;
+    align-items: center;
+}
+h4{
+    display: flex;
+}
+img{
+    width: 8%;
+}
