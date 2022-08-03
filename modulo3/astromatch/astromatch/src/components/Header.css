@@ -1,0 +1,23 @@
+.header {
+    align-items: center;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    font-size: 50px;
+    background-color:darkcyan;
+}
+.headerIcon {
+    height: 55px; 
+    width: 75px; 
+}
+
+.logo img {
+    width: 60px;
+    object-fit: contain;
+}
+
+.headerIcon:hover{
+    transition: 0.5s;
+    color: white;
+}
+
