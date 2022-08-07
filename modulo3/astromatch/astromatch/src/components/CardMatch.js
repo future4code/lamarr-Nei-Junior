@@ -9,7 +9,6 @@ function CardMatch() {
         {
             nome: 'Marco',
             url: <img src='https://img.freepik.com/fotos-gratis/sorrindo-mulher-preta-fazendo-gesto-de-moldura_1262-6249.jpg?w=1060&t=st=1659487532~exp=1659488132~hmac=21fdee501579eb6171bddbf71dcac3133aef3502b580c60741ed26e2860beffb' alt='' />
-
         },
         {
             nome: 'Marco',
@@ -17,10 +16,7 @@ function CardMatch() {
         }
     ])
 
-
-
     return (
-
         <div className='styleCard'>
             {pessoa.map((pessoa) => (
                 <div className='card'>
@@ -29,7 +25,6 @@ function CardMatch() {
                     <div className='icons'><NotInterestedIcon fontSize="large" className='not'/>
                     <CheckIcon fontSize="large" className='yes'/></div>
                 </div>
-
             ))}
         </div>
     )
