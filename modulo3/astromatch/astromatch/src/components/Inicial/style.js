@@ -12,7 +12,7 @@ align-items: center;
 
 export const ButtonCor = styled.button`
     font-family: 'Permanent Marker', cursive;
-    background-color:lightpink;
+    background-color:indianred;
     margin-bottom: 20px;
     width: 500px;
     grid-gap: 8px;
