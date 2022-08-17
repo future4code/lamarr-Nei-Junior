@@ -1,5 +1,6 @@
 import React from 'react'
 import { useNavigate } from "react-router-dom";
+import { BASE_URL } from '../../Constants/constant';
 
 
 function CreateTrip() {
@@ -7,6 +8,7 @@ function CreateTrip() {
     return (
         <div>CreateTrip
             <button onClick={() => { navigate("/") }}>VOLTAR PARA HOME</button>
+            {console.log(BASE_URL)}
         </div>
     )
 }
