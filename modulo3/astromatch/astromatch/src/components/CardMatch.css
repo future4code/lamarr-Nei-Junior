@@ -1,0 +1,47 @@
+.card{
+    margin-top: 40px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:lightsteelblue;
+    width: 700px;
+    
+}
+
+.card img {
+    width: 600px;
+    border-radius: 0px;
+    box-shadow: 10px, 38px, 50px, 10px rgb(0, 0, 0, 0.3);
+}
+
+.styleCard{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.icons{
+    background-color:mistyrose;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    border: 1px black solid;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: space-around;
+}
+.not:hover{
+    color: red;
+    transition: 0.3s;
+}
+.yes:hover{
+    color: green;
+    transition: 0.3s;
+}

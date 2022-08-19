@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@100&display=swap');
+
+.Match:hover{
+    color:indianred;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.header {
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    height: 12vh;
+    display: flex;
+    font-size: 50px;
+    background-color:darkcyan;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.textoHeader{
+    font-family: 'Permanent Marker', cursive;
+    cursor: pointer;
+    margin-left: -320px;
+    font-weight: 200;
+    color: white;
+    text-shadow: 0 0 6px black;
+
+}
+
+.headerIcon {
+    height: 45px; 
+    width: 55px; 
+    cursor: pointer;
+}
+
+.logo img {
+    width: 60px;
+    object-fit: contain;
+}
+
+.headerIcon:hover{
+    transition: 0.5s;
+    color: white;
+}
+
