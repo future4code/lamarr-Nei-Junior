@@ -4,9 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "exercicio1": "echo transpilando... && tsc && node ./build/exercicio1.js",
+    "exercicio2": "echo transpilando... && tsc && node ./build/exercicio2.js",
+    "exercicio3": "echo transpilando... && tsc && node ./build/exercicio3.js",
+    "exercicio4": "echo transpilando... && tsc && node ./build/exercicio4.js",
+    "exercicio5": "echo transpilando... && tsc && node ./build/exercicio5.js"
+
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.8.4"
+  }
 }
