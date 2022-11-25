@@ -1,0 +1,30 @@
+GET https://viacep.com.br/ws/88304100/json/ 
+Content-Type: application/json
+
+
+###
+
+GET https://viacep.com.br/ws/88334100/json/ 
+Content-Type: application/json
+
+###
+
+POST http://localhost:3003/test
+Content-Type: application/json
+
+{
+    "cep": "88304101"
+}
+
+POST http://localhost:3003/create 
+Content-Type: application/json 
+
+{
+    "CEP": "88304101",
+    "Logradouro": "Rua Mateus",
+    "Número": "1",
+    "Complemento": "AP 201",
+    "Bairro":"Centro",
+    "Cidade": "Itajai",
+    "Estado": "SC"
+}
