@@ -24,7 +24,7 @@ function Post(props) {
     if (!curtido) {
       (setCurtido(true)); setnumeroCurtidas(numeroCurtidas + 1)
     }
-    else if (curtido) {setCurtido(false); setnumeroCurtidas(numeroCurtidas - 1) }
+    else if (curtido) { setCurtido(false); setnumeroCurtidas(numeroCurtidas - 1) }
     console.log('Curtiu!')
   }
 
@@ -59,7 +59,7 @@ function Post(props) {
   }
 
   if (comentando) {
-    componenteComentario = <SecaoComentario aoEnviar={aoEnviarComentario} onChangeComentario={handleInputComentario} value={inputComentario}/>
+    componenteComentario = <SecaoComentario aoEnviar={aoEnviarComentario} onChangeComentario={handleInputComentario} value={inputComentario} />
   }
 
   return (
@@ -83,7 +83,7 @@ function Post(props) {
           onClickIcone={onClickComentario}
           valorContador={numeroComentarios}
         />
-                <IconeComContador
+        <IconeComContador
           icone={iconeComentario}
           onClickIcone={onClickComentario}
           valorContador={numeroComentarios}
